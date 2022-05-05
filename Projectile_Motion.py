@@ -80,7 +80,8 @@ plt.annotate(f'Max range\n {round(horizontal_range,2)} [m]',
             fontname='Century Gothic',
             arrowprops=dict(arrowstyle='<|-',
                             connectionstyle='arc3',
-                            edgecolor='r'),
+                            edgecolor='r',
+                            facecolor='r'),
             bbox=dict(facecolor='w', edgecolor='r', boxstyle='round'))
 plt.annotate(f'Time of flight\n {round(time_of_flight,2)} [s]',
             xy=(0.865,0.825),
@@ -97,6 +98,7 @@ plt.annotate(f'Max height\n x: {round(max_x.x[0],2)} [m]; y: {round(max_y,2)} [m
             fontname='Century Gothic',
             arrowprops=dict(arrowstyle='<|-',
                             connectionstyle='arc3',
-                            edgecolor='g'),
+                            edgecolor='g',
+                            facecolor='g'),
             bbox=dict(facecolor='w', edgecolor='g', boxstyle='round'))
 plt.show()
